@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1601976152 source:c:\users\corentin\desktop\bmpformat\bmpformat\bmpformat\main.c
+	<stdio.h>
+	<stdlib.h>
+
