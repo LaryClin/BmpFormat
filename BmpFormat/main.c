@@ -34,10 +34,10 @@ FILE *bitmapfile;
 bmpheader header;
 bmpinfo info;
 bitmapfile=fopen(bitmapfilename,"rb");
-if(bitmapfile==NULL)
+if(bitmapfile == NULL)
 {
-printf("Error when reading...!\n");
-exit(-1);
+   printf("Error when reading...!\n");
+   exit(-1); 
 }
 
 fread(&header,sizeof(header),1,bitmapfile);
